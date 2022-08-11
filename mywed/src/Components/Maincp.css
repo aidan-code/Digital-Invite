@@ -1,0 +1,5 @@
+.container{
+    height: 100%;
+    scroll-snap-type: y mandatory;
+    overflow: scroll;
+}

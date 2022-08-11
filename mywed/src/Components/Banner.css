@@ -1,0 +1,14 @@
+.Banner-name{
+    border: 1px solid black;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../Assets/Marble.jpg);
+    background-position: center;
+    scroll-snap-align: start;
+}
+
+.bn-mn{
+    height: 400px;
+}
