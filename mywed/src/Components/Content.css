@@ -1,0 +1,56 @@
+.ct-text{
+    height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    scroll-snap-align: start;
+    line-height: 4rem;
+    font-family: 'Arima Madurai', cursive;
+
+    
+}
+.sep{
+    font-family: 'Aref Ruqaa', serif;
+}
+
+.sml{
+    font-size: 18px;
+}
+.fam-nm{
+    font-size: 60px;
+    /* border: 1px solid black; */
+}
+
+.ct-text h4{
+    font-size: 60px;
+    font-weight: light;
+}
+.ct-text{
+    line-height: 4rem;
+}
+
+.flwr{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -60%);
+    z-index: -1000;
+}
+.cple{
+    font-size: 72px;
+    font-weight: 400;
+    /* border: 1px solid black; */
+    margin-left: 130px;
+}
+
+.col{
+    color: #B27409;
+    font-size:72px ;
+    font-family: 'Arima Madurai', cursive;
+    margin: 30px;
+    
+
+}
