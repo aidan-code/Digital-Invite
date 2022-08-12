@@ -3,7 +3,7 @@
     position: relative;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     text-align: center;
     scroll-snap-align: start;
@@ -44,6 +44,7 @@
     font-weight: 400;
     /* border: 1px solid black; */
     margin-left: 130px;
+    line-height: 10rem;
 }
 
 .col{

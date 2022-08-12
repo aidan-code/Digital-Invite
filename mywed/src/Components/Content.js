@@ -12,7 +12,7 @@ const Content = () => {
         <p className="sml"> invites you to the soleminisation of their children </p>
         </div>
         
-        <img src={Flower} className="flwr"/>
+        <img src={Flower} className="flwr" alt='flower'/>
 
         <div className='cple'>
             <span className="col">Folashade </span>
