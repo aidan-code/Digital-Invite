@@ -1,0 +1,85 @@
+.rsvp-cont{
+    height: 100vh;
+    scroll-snap-align: start;
+    padding: 80px;
+    background-image: url(../Assets/Marble.jpg);
+}
+
+
+.rsvp-title{
+    text-align: center;
+    font-size: 80px;
+    font-weight: 400;
+}
+
+.rsvp-form{
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    margin: 30px 0px;
+}
+.form-sect{
+    display: flex;
+    align-items: center;
+    border: 1px solid #B27409;
+    width: 100%;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+    font-size:18px;
+    color: #312E2D;
+}
+
+input[type="text"]{
+    outline: none;
+    border: none;
+    font-size: 18px;
+    padding: 5px 0px;
+    width: 400px;
+    color: #B27409;
+    fill: none;
+}
+
+.show-drop{
+    display: flex;
+    align-items: center;
+    font-size:1.5rem;
+    padding: 5px ;
+}
+
+.cals{
+    background-color: #B27409;
+    color: white;
+    font-size:1rem;
+    margin: 20px;
+    padding: 5px 15px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}
+.subbtn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+}
+
+.reg-btn{
+   
+    padding:15px 100px;
+    font-size:2rem;
+    background-color: #B27409;
+    border: none;
+    color: #ffffff;
+    font-family: 'Arima Madurai';
+    font-weight: 400px;
+    border-radius: 15px;
+}
+
+.showfrm{
+    display: block;
+}
+
+.hidefrm{
+    display: none;
+}

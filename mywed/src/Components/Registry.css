@@ -1,0 +1,42 @@
+.Regi{
+    height: 100vh;
+    scroll-snap-align: start;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px;
+
+}
+
+.tle{
+    font-size: 60px;
+    font-family: 'Arima Madurai', cursive;
+    color: #B27409;
+
+}
+
+.Regi img{
+    height: 200px;
+    margin:30px 0px;
+}
+
+.regitext{
+    font-size: 40px;
+    font-weight: 100;
+    text-align: center;
+}
+
+.gift{
+    margin: 50px;
+    background-color: #B27409;
+    border-radius: 5px;
+    padding:10px  40px;
+
+}
+
+.gift a{
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+   
+}

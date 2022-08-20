@@ -3,14 +3,15 @@ import './locate.css';
 import church from '../Assets/Church.svg';
 import reception from '../Assets/Vector.svg';
 import car from  '../Assets/ride.svg';
+import Button from './Buttn';
 import { Link } from 'react-router-dom'
 
 const Locate = () => {
   return (
     <div className="locate">
         <div className="loc-title">
-          <p>Location...</p>
-          <img src={car}/>
+          <p>LOCATION...</p>
+          <img src={car} alt=""/>
         </div>
 
     <div className="loc-descrip">
@@ -27,8 +28,10 @@ const Locate = () => {
           </p>
 
           <div className="direct">
-            <Link to="/">How do i get here</Link>
+            <Link to="/Getthere">How do i get here</Link>
+
           </div>
+          <Button name = "How do i get there"  path="/Getthere"/>
         </div>
 
   {/* reception Location */}
