@@ -1,0 +1,55 @@
+.headcard{
+    border-radius: 1px solid black;
+    font-size: 3rem;
+    color: #B27409;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 20px ;
+    /* text-align: center; */
+}
+
+.headcard p{
+    color: #B27409;
+}
+
+.all-acc{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 150px; 
+
+}
+.bcvk {
+    font-size: 1rem;
+    width: 80%;
+    padding: 0px 50px;
+}
+.bcvk a{
+    color: #B27409;
+    text-decoration: none;
+}
+.wdt{
+    width: 100%;
+}
+
+.accs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    text-align: center;
+}
+
+.Thanks{
+    text-align: center;
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+}
+
+.Thanks p{
+    background-color: #B27409;
+    padding: 10px 25px  ;
+    color: white;
+    border-radius: 15px;
+}

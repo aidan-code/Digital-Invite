@@ -13,7 +13,7 @@ const Registry = () => {
         <p className='regitext'>Your presence is enough of a present to us! But for those of you who want to Bless Us Further A monetary Gift would be greatly appreciated</p>
 
         <div className='gift'>
-            <Link to='/'>Gift Us</Link>
+            <Link to='/GiftUs'>Gift Us</Link>
         </div>
 
     </div>

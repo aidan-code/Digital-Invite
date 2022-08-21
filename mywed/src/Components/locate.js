@@ -27,11 +27,8 @@ const Locate = () => {
             Time : 11am
           </p>
 
-          <div className="direct">
-            <Link to="/Getthere">How do i get here</Link>
+            <Button name = "How do i get there"  path="/Getthere"/>
 
-          </div>
-          <Button name = "How do i get there"  path="/Getthere"/>
         </div>
 
   {/* reception Location */}
@@ -46,9 +43,9 @@ const Locate = () => {
               Time : 1pm
           </p>
 
-          <div className="direct">
-            <Link to="/">How do i get here</Link>
-              </div>
+
+          <Button name = "How do i get there"  path="/Getthere"/>
+
         </div>
 
     </div>
