@@ -17,8 +17,6 @@ function handleChange(e){
         setActive(false);
     }
 }
-    console.log(active)
-
   return (
     <div className='rsvp-cont'>
         <div className="rsvp-title">

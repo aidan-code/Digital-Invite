@@ -3,4 +3,6 @@
     overflow: scroll;
     scroll-behavior: smooth;
     scroll-snap-type:y mandatory ;
+    width: 100%;
+    overflow-x: hidden; 
 }

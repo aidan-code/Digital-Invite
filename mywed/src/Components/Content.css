@@ -55,3 +55,23 @@
     
 
 }
+@media screen and (max-width: 320px){
+    .ct-text{
+        padding: 50px 10px;
+        line-height: 3rem;
+    }
+    .fam-nm{
+        font-size: 2.5rem;
+    }
+    
+    .col, .sep{
+        font-size: 2rem;
+    }
+
+    .cple{
+        margin: 0px;
+        line-height:2rem;
+        display:flex; 
+        flex-direction:column
+    }
+}

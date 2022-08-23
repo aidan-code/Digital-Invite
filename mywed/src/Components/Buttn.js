@@ -1,12 +1,12 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import './button.css'
 
 
-function Button( {name, path}) {
+function Button( {name, handleClick}) {
   return (
     <div className="direct">
-        <Link to={path}>{name}</Link>
+        <button onClick={handleClick}>{name}</button>
     </div>
   )
 }

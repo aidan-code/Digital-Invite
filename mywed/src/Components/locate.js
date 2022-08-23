@@ -1,12 +1,22 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './locate.css';
 import church from '../Assets/Church.svg';
 import reception from '../Assets/Vector.svg';
 import car from  '../Assets/ride.svg';
 import Button from './Buttn';
 import { Link } from 'react-router-dom'
+import Getthere from './Getthere';
+import GiftUs from './GiftUs'
 
 const Locate = () => {
+const [eventDirect, showEventDirect]= useState(false);
+const [churchDirect, showChurchDirect] = useState(false);
+
+const handleClick = () => {
+  showEventDirect(true)
+  console.log('yeah')
+}
+
   return (
     <div className="locate">
         <div className="loc-title">
@@ -27,7 +37,7 @@ const Locate = () => {
             Time : 11am
           </p>
 
-            <Button name = "How do i get there"  path="/Getthere"/>
+            <Button name = "How do i get there"/>
 
         </div>
 
@@ -44,11 +54,16 @@ const Locate = () => {
           </p>
 
 
-          <Button name = "How do i get there"  path="/Getthere"/>
+          <Button name = "How do i get there"  handleClick={handleClick}/>
 
         </div>
 
     </div>
+  {eventDirect ? (
+  <>
+   <Link><GiftUs/></Link> 
+  </> 
+  ): null}
 
         
     </div>

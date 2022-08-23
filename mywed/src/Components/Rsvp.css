@@ -10,21 +10,32 @@
     text-align: center;
     font-size: 80px;
     font-weight: 400;
+    color: #B27409;
 }
 
 .rsvp-form{
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content:center ;
     margin: 30px 0px;
+    width: 100%;
 }
+.rsvp-form form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+     
+
+
 .form-sect{
     display: flex;
     align-items: center;
     border: 1px solid #B27409;
-    width: 100%;
     padding: 10px;
     margin: 5px;
+    width: 100%;
     border-radius: 10px;
     font-size:18px;
     color: #312E2D;
@@ -62,10 +73,10 @@ input[type="text"]{
     flex-direction: column;
     align-items: center;
     margin: 50px;
+    text-align: center;
 }
 
 .reg-btn{
-   
     padding:15px 100px;
     font-size:2rem;
     background-color: #B27409;
@@ -82,4 +93,52 @@ input[type="text"]{
 
 .hidefrm{
     display: none;
+}
+
+@media screen and (max-width:320px){
+    .rsvp-cont{
+        padding: 50px 0px;
+    }
+    .rsvp-title{
+        text-align: center;
+        font-size: 36px;
+    }
+    .rsvp-form{
+        margin: 20px 0px;
+        padding:10px 20px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .form-sect{
+        display: flex;
+        /* flex-direction: column; */
+        align-items: center;
+        width: 300px;
+        /* margin: 10px 30px; */
+
+    }
+    
+    input[type="text"]{
+        outline: none;
+        border: none;
+        font-size: 18px;
+        padding: 5px 0px;
+        width: 150px;
+        color: #B27409;
+        fill: none;
+    }
+    .show-drop{
+        display: flex;
+        align-items: center;
+        font-size:1rem;
+        padding: 5px ;
+    }
+
+    .subbtn{
+        margin: 20px;
+    }
+    
+    
+    
 }

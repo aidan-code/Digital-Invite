@@ -20,7 +20,6 @@
     display: flex;
     justify-content: space-between;
  
-    /* width: 100%; */
 }
 
 .m-itm .nav-text, .nav-dif{
@@ -51,4 +50,23 @@
     font-family: 'inter', sans-serif;
 
 
+}
+
+@media screen and (max-width:320px){
+    .m-itm{
+        /* justify-content: center;  */
+        width: 10   0%;
+        align-items: center ;
+    }
+
+    .m-itm .nav-text, .nav-dif{
+        margin: 10px 0px;
+        padding:10px 15px;
+        display: flex;
+        align-items: center;
+    }
+
+    .nav-text a, .nav-dif a{
+        font-size: 12px;
+    }
 }

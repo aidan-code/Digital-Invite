@@ -40,3 +40,20 @@
     font-size: 24px;
    
 }
+
+@media screen and (max-width:320px) {
+    .Regi{
+        padding: 100px 20px;
+    }
+    .tle{
+        font-size: 36px;
+    }
+
+    .Regi img{
+        height: 100px;
+    }
+
+    .regitext{
+        font-size: 18px;
+    }
+}

@@ -2,27 +2,28 @@
     border-radius: 1px solid black;
     font-size: 3rem;
     color: #B27409;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
+    text-align: center;
     margin: 20px ;
     /* text-align: center; */
 }
 
 .headcard p{
     color: #B27409;
+    /* border: 1px solid black; */
 }
 
 .all-acc{
     display: flex;
     justify-content: space-between;
-    padding: 50px 150px; 
+    padding: 30px 150px; 
 
 }
 .bcvk {
     font-size: 1rem;
     width: 80%;
     padding: 0px 50px;
+    margin: 30px 0px;
+    /* border: 1px solid black; */
 }
 .bcvk a{
     color: #B27409;
@@ -47,9 +48,33 @@
     justify-content: center;
 }
 
-.Thanks p{
+.Thanks a{
     background-color: #B27409;
     padding: 10px 25px  ;
     color: white;
     border-radius: 15px;
+    text-decoration: none;
 }
+
+@media screen and (max-width:320px) {
+    .headcard{
+        font-size: 36px;
+    }
+
+    .bcvk{
+        width: 100px;
+    }
+
+    .all-acc{
+        flex-direction: column;
+        padding: 50px;
+    }
+    .accs img{
+        height: 200px;
+    }
+
+    .Thanks {
+        font-size: 24px;
+    }
+}
+
