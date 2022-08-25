@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 
 const Registry = () => {
   return (
-    <div className='Regi'>
+    <div className='Regi' id='regi'>
         <p className='tle'>REGISTRY</p>
 
         <img src={present} alt="gift"/>

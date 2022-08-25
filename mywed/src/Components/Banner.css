@@ -21,3 +21,9 @@
         height: 300px;
     }
 }
+
+@media screen and (min-width:321px) and (max-width:425px) {
+    .Banner-name{
+        height: 100vh;
+    }
+}

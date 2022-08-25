@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react'
 import './Rsvp.css'
 import { useState } from 'react';
+import { Link } from 'react-router-dom'
 
 const Rsvp = () => {
 const [active, setActive] = useState(false);
@@ -18,25 +19,27 @@ function handleChange(e){
     }
 }
   return (
-    <div className='rsvp-cont'>
+
+    <div className='rsvp-cont' id='rsv-p'>
+        <p className="beck"><Link to='/'>Home</Link></p>
         <div className="rsvp-title">
             <p>RSVP</p>
         </div>
         <div className="rsvp-form">
-        <form > 
+        <form  name='Guest Data' method="post" data-netlify="true" onSubmit="submit"> 
             <div className = "form-sect"> 
                 <p>First Name*</p>
-                <input type="Text" required />
+                <input type="Text" required name='First Name'/>
             </div>
 
             <div className = "form-sect">
                 <p>Last Name*</p>
-                <input type="Text" required />
+                <input type="Text" required name='LastName'/>
             </div>
 
             <div className = "form-sect">
                 <p>Phone Number*</p>
-                <input type="text" required />
+                <input type="text" required name="Phone number" />
             </div>
 
             <div className="show-drop">
@@ -50,12 +53,12 @@ function handleChange(e){
             <div className={active ? "showfrm" : "hidefrm"}>
                 <div className="form-sect">
                     <p>Full Name of yout +1*</p>
-                    <input type="Text" required />
+                    <input type="Text"  name='Plusone name'/>
                 </div>
 
                 <div className="form-sect">
                     <p>Phone Number of your +1*</p>
-                    <input type="Text" required />
+                    <input type="Text"  name='plusone phone'/>
                 </div>
             </div>
 

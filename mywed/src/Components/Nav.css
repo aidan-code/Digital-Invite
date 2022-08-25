@@ -70,3 +70,23 @@
         font-size: 12px;
     }
 }
+
+@media screen and (min-width:321px) and (max-width:425px){
+    .m-itm{
+        display: flex;
+        justify-content: center;     
+    }
+
+    .m-itm .nav-text, .nav-dif{
+        list-style: none;
+        text-decoration: none;
+        margin: 15px 20px;
+        padding:5px 10px;
+    }
+
+    .nav-text a, .nav-dif a{
+        font-size: 14px;
+    }
+    
+    
+}

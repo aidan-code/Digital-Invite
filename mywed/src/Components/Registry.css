@@ -57,3 +57,20 @@
         font-size: 18px;
     }
 }
+
+@media screen and  (min-width:321px) and (max-width:425px) {
+    .Regi{
+        padding: 100px 20px;
+    }
+    .tle{
+        font-size: 36px;
+    }
+
+    .Regi img{
+        height: 100px;
+    }
+
+    .regitext{
+        font-size: 18px;
+    }
+}

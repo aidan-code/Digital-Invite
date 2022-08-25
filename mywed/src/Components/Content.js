@@ -19,6 +19,8 @@ const Content = () => {
             <span className="sep">&</span>
             <span className="col"> Oluwagbemiga</span>
         </div>
+
+        <p className="dt-sv">on Saturday 29th of October 2022</p>
     </div>
   )
 }

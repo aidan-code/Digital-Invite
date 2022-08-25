@@ -5,6 +5,11 @@
     background-image: url(../Assets/Marble.jpg);
 }
 
+.beck a{
+    color: #B27409;
+    text-decoration: none;
+}
+
 
 .rsvp-title{
     text-align: center;
@@ -141,4 +146,49 @@ input[type="text"]{
     
     
     
+}
+
+@media screen and  (min-width:321px) and (max-width:425px)  {
+    .rsvp-cont{
+        padding: 30px 0px;
+    }
+    .rsvp-title{
+        text-align: center;
+        font-size: 36px;
+    }
+    .rsvp-form{
+        margin: 20px 0px;
+        padding:10px 20px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .form-sect{
+        display: flex;
+        /* flex-direction: column; */
+        align-items: center;
+        width: 300px;
+        /* margin: 10px 30px; */
+
+    }
+    
+    input[type="text"]{
+        outline: none;
+        border: none;
+        font-size: 18px;
+        padding: 5px 0px;
+        width: 150px;
+        color: #B27409;
+        fill: none;
+    }
+    .show-drop{
+        display: flex;
+        align-items: center;
+        font-size:1rem;
+        padding: 5px ;
+    }
+
+    .subbtn{
+        margin: 20px;
+    }
 }

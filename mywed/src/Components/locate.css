@@ -45,7 +45,34 @@
 
 @media screen and (max-width:320px) {
     .locate{
-        padding:100px 10px;
+        padding:70px 10px;
+    }
+    .loc-title{
+        font-size: 24px;
+        display: flex;
+        align-items: baseline;
+    }
+
+    .loc-title img{
+        height: 5px;
+    }
+    
+    .loc-descrip{
+        flex-direction: column;
+        margin: 20px ;
+    }
+    .place{
+        font-size: 14px;
+    }
+    .place img{
+        height: 50px;
+
+    }
+}
+
+@media screen and (min-width:321px) and (max-width:425px) {
+    .locate{
+        padding:70px 10px;
     }
     .loc-title{
         font-size: 24px;

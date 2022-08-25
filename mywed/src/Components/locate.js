@@ -4,21 +4,14 @@ import church from '../Assets/Church.svg';
 import reception from '../Assets/Vector.svg';
 import car from  '../Assets/ride.svg';
 import Button from './Buttn';
-import { Link } from 'react-router-dom'
-import Getthere from './Getthere';
-import GiftUs from './GiftUs'
+import {Routes, Route, Link, Navigate, useNavigate} from 'react-router-dom'
+
+
 
 const Locate = () => {
-const [eventDirect, showEventDirect]= useState(false);
-const [churchDirect, showChurchDirect] = useState(false);
-
-const handleClick = () => {
-  showEventDirect(true)
-  console.log('yeah')
-}
 
   return (
-    <div className="locate">
+    <div className="locate" id='Locate'>
         <div className="loc-title">
           <p>LOCATION...</p>
           <img src={car} alt=""/>
@@ -37,7 +30,7 @@ const handleClick = () => {
             Time : 11am
           </p>
 
-            <Button name = "How do i get there"/>
+            <Button name = "How do i get there" path = "/GetChurch"/>
 
         </div>
 
@@ -54,18 +47,11 @@ const handleClick = () => {
           </p>
 
 
-          <Button name = "How do i get there"  handleClick={handleClick}/>
+          <Button name = "How do i get there"  path = "/GetEvent"/>
 
         </div>
 
     </div>
-  {eventDirect ? (
-  <>
-   <Link><GiftUs/></Link> 
-  </> 
-  ): null}
-
-        
     </div>
   )
 }
