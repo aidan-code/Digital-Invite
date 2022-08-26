@@ -8,7 +8,7 @@ const [active, setActive] = useState(false);
 
 
 function handleChange(e){
-    e.preventDefault();
+    // e.preventDefault();
     let vale = e.target.value;  
     if(vale === "Yes"){
         setActive(true);
