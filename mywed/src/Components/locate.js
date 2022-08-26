@@ -1,10 +1,9 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './locate.css';
 import church from '../Assets/Church.svg';
 import reception from '../Assets/Vector.svg';
 import car from  '../Assets/ride.svg';
 import Button from './Buttn';
-import {Routes, Route, Link, Navigate, useNavigate} from 'react-router-dom'
 
 
 

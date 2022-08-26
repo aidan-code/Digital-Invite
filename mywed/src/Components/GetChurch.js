@@ -11,7 +11,7 @@ function GetEvent() {
        <div className="spacer">
       
       <div class="mapouter">
-        <div class="gmap_canvas"><iframe className='dmap' id="gmap_canvas" src="https://maps.google.com/maps?q=RCCG%20Fountain%20of%20Life%201%20Isreal%20Adebajo%20Cl,%20Ogba%20101233,%20Ikeja,%20Lagos%20Nigeria&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+        <div class="gmap_canvas"><iframe className='dmap' id="gmap_canvas" title="church" src="https://maps.google.com/maps?q=RCCG%20Fountain%20of%20Life%201%20Isreal%20Adebajo%20Cl,%20Ogba%20101233,%20Ikeja,%20Lagos%20Nigeria&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
       </div>
       </div>
 
