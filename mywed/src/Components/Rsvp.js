@@ -26,22 +26,22 @@ function handleChange(e){
             <p>RSVP</p>
         </div>
         <div className="rsvp-form">
-        <form  name='Guest Data' method="post" netlify data-netlify="true" onSubmit="submit"> 
+        <form  name="Guest" method="post" netlify data-netlify="true" onSubmit="submit"> 
         <input type="hidden" name="form-name" value="Contact" />
-            <div className = "form-sect"> 
+            <label className = "form-sect"> 
                 <p>First Name*</p>
-                <input type="Text" required name='First Name'/>
-            </div>
+                <input type="Text"  name='First Name'/>
+            </label>
 
-            <div className = "form-sect">
+            <label className = "form-sect">
                 <p>Last Name*</p>
-                <input type="Text" required name='LastName'/>
-            </div>
+                <input type="Text"  name='LastName'/>
+            </label>
 
-            <div className = "form-sect">
+            <label className = "form-sect">
                 <p>Phone Number*</p>
-                <input type="text" required name="Phone number" />
-            </div>
+                <input type="text" name="Phone number" />
+            </label>
 
             <div className="show-drop">
                 <p>Are you inviting others?</p>
@@ -52,15 +52,15 @@ function handleChange(e){
             </div>
 
             <div className={active ? "showfrm" : "hidefrm"}>
-                <div className="form-sect">
+                <label className="form-sect">
                     <p>Full Name of yout +1*</p>
                     <input type="Text"  name='Plusone name'/>
-                </div>
+                </label>
 
-                <div className="form-sect">
+                <label className="form-sect">
                     <p>Phone Number of your +1*</p>
                     <input type="Text"  name='plusone phone'/>
-                </div>
+                </label>
             </div>
 
             <div className="subbtn">
