@@ -69,7 +69,7 @@ function handleChange(e){
             </div>
 
             <div className="subbtn">
-            <button type="submit" className="reg-btn">Register</button>
+            <button type="submit" className="reg-btn">submit</button>
             <p>It’s important you register, as failure to do so will prohibit entrance to the event</p> 
             </div>
             

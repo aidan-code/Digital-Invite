@@ -29,14 +29,14 @@
 .rsvp-form form{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
 }
      
 
 
 .form-sect{
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     border: 1px solid #B27409;
     padding: 10px;
     margin: 5px;
@@ -44,6 +44,7 @@
     border-radius: 10px;
     font-size:18px;
     color: #312E2D;
+
 }
 
 input[type="text"]{
@@ -120,14 +121,15 @@ input[type="text"]{
         /* flex-direction: column; */
         align-items: center;
         width: 300px;
-        /* margin: 10px 30px; */
+        margin:5px 30px;
+        font-size: 12px;
 
     }
     
     input[type="text"]{
         outline: none;
         border: none;
-        font-size: 18px;
+        font-size: 14px;
         padding: 5px 0px;
         width: 150px;
         color: #B27409;
@@ -138,10 +140,15 @@ input[type="text"]{
         align-items: center;
         font-size:1rem;
         padding: 5px ;
+        margin: 0px 20px;
     }
 
     .subbtn{
         margin: 20px;
+    }
+
+    .subbtn p{
+        font-size: 12px;
     }
     
     
