@@ -1,56 +1,36 @@
 import React from 'react'
 import './Rsvp.css'
-// import { useState } from 'react';
-// import { Link } from 'react-router-dom'
+import { useState } from 'react';
+import { Link } from 'react-router-dom'
 
 const Rsvp = () => {
-// const [active, setActive] = useState(false);
+const [active, setActive] = useState(false);
 
 
-// function handleChange(e){
-//     e.preventDefault();
-//     let vale = e.target.value;  
-//     if(vale === "Yes"){
-//         setActive(true);
-//     } else if(vale === "No"){
-//         setActive(false);
-//     }else if (vale ==="Choose"){
-//         setActive(false);
-//     }
-// }
+function handleChange(e){
+    e.preventDefault();
+    let vale = e.target.value;  
+    if(vale === "Yes"){
+        setActive(true);
+    } else if(vale === "No"){
+        setActive(false);
+    }else if (vale ==="Choose"){
+        setActive(false);
+    }
+}
   return (
 
     <div className='rsvp-cont' id='rsv-p'>
-        <form name="contact" method="POST" data-netlify="true">
-  <p>
-    <label>Your Name: <input type="text" name="name" /></label>
-  </p>
-  <p>
-    <label>Your Email: <input type="email" name="email" /></label>
-  </p>
-  <p>
-    <label>Your Role: <select name="role[]" multiple>
-      <option value="leader">Leader</option>
-      <option value="follower">Follower</option>
-    </select></label>
-  </p>
-  <p>
-    <label>Message: <textarea name="message"></textarea></label>
-  </p>
-  <p>
-    <button type="submit">Send</button>
-  </p>
-</form>
-        {/* <p className="beck"><Link to='/'>Home</Link></p>
+        <p className="beck"><Link to='/'>Home</Link></p>
         <div className="rsvp-title">
             <p>RSVP</p>
         </div>
         <div className="rsvp-form">
 
         <form name="Contact" 
-        method="POST" 
+        method='POST'
         onSubmit="submit" 
-        data-netlify="true" data-netlify-honeypot="bot-field"> 
+        data-netlify="true" > 
 
         <input type="hidden" name="form-name" value="Contact" />
             <label className = "form-sect"> 
@@ -94,7 +74,7 @@ const Rsvp = () => {
             </div>
             
         </form>
-        </div> */}
+        </div>
        
     </div>
   )
