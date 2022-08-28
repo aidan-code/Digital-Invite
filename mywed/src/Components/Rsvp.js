@@ -26,13 +26,13 @@ function handleChange(e){
             <p>RSVP</p>
         </div>
         <div className="rsvp-form">
-
-        <form name="Contact" 
-        method='POST'
+{/* form */}
+        <form name="contact" 
+        method="POST"
         onSubmit="submit" 
         data-netlify="true" > 
 
-        <input type="hidden" name="Contact" value="Contact" />
+        <input type="hidden" name="contact" value="Contact" />
             <label className = "form-sect"> 
                 <p>First Name*</p>
                 <input type="Text"  name='First Name'/>
