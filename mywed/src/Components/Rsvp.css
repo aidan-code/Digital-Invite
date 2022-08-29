@@ -199,3 +199,15 @@ input[type="text"]{
         margin: 20px;
     }
 }
+
+.ric{
+    height: 100vh;
+    scroll-snap-align: start;
+    padding: 200px;
+}
+
+.cryo{
+    border: 1px solid black;
+    background-color: #B27409;
+    padding: 10px;
+}

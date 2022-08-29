@@ -6,6 +6,7 @@ import './Maincp.css'
 import Locate from './locate';
 import Registry from './Registry';
 import Rsvp from './Rsvp';
+import Rvp from './form';
 
 const Maincp = () => {
   return (
@@ -16,6 +17,7 @@ const Maincp = () => {
         <Locate/>
         <Registry/>
         <Rsvp/>
+        <Rvp/>
     </div>
   )
 }
