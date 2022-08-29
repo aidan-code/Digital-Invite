@@ -30,7 +30,7 @@ function handleChange(e){
         <form name="contact" 
         method="POST"
         onSubmit="submit" 
-        data-netlify="true" > 
+        netlify > 
 
         <input type="hidden" name="contact" value="Contact" />
             <label className = "form-sect"> 
