@@ -27,9 +27,8 @@ function handleChange(e){
         </div>
         <div className="rsvp-form">
 {/* form */}
-        <form name="contact info" 
+        <form name="rsvp" 
         method="POST"
-        onSubmit="submit" 
         netlify > 
             <label className = "form-sect"> 
                 <p>First Name*</p>
