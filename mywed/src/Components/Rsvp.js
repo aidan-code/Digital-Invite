@@ -27,23 +27,23 @@ function handleChange(e){
         </div>
         <div className="rsvp-form">
 {/* form */}
-        <form name="contact" 
+        <form name="contact info" 
         method="POST"
         onSubmit="submit" 
         netlify > 
             <label className = "form-sect"> 
                 <p>First Name*</p>
-                <input type="Text"  name='First Name'/>
+                <input type="Text"  name="firstname"/>
             </label>
 
             <label className = "form-sect">
                 <p>Last Name*</p>
-                <input type="Text"  name='LastName'/>
+                <input type="Text"  name="LastName"/>
             </label>
 
             <label className = "form-sect">
                 <p>Phone Number*</p>
-                <input type="text" name="Phone number" />
+                <input type="text" name="Phonenumber" />
             </label>
 
             <div className="show-drop">
@@ -57,18 +57,18 @@ function handleChange(e){
             <div className={active ? "showfrm" : "hidefrm"}>
                 <label className="form-sect">
                     <p>Full Name of yout +1*</p>
-                    <input type="Text"  name='Plusone name'/>
+                    <input type="Text"  name="plusonename"/>
                 </label>
 
                 <label className="form-sect">
                     <p>Phone Number of your +1*</p>
-                    <input type="Text"  name='plusone phone'/>
+                    <input type="Text"  name="plusonenum"/>
                 </label>
             </div>
 
             <div className="subbtn">
-            <button type="submit" className="reg-btn">submit</button>
-            <p>It’s important you register, as failure to do so will prohibit entrance to the event</p> 
+                <button type="submit" className="reg-btn" name ="submit">submit</button>
+                <p>It’s important you register, as failure to do so will prohibit entrance to the event</p> 
             </div>
             
         </form>
