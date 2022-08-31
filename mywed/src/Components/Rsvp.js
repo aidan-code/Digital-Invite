@@ -34,7 +34,7 @@ function handleChange(e){
         data-netlify="true"
         onSubmit="submit"> 
 
-        <input type="hidden" name="form-name" value="contact"/>
+        <input type="hidden" name="contact" value="contact"/>
             <label className = "frm-sect"> 
                 <p>First Name*</p>
                 <input type="Text"  name="firstname"/>
