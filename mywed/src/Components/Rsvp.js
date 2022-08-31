@@ -31,8 +31,10 @@ function handleChange(e){
 
         <form name="contact" 
         method='POST'
-        netlify 
+        data-netlify="true"
         onSubmit="submit"> 
+
+        <input type="hidden" name="form-name" value="contact"/>
             <label className = "frm-sect"> 
                 <p>First Name*</p>
                 <input type="Text"  name="firstname"/>
@@ -69,7 +71,7 @@ function handleChange(e){
             </div>
 
             <div className="subbtn">
-                <button type="submit" className='reg-btn' onSubmit="submit">Register</button>
+                <button type="submit" className='reg-btn' >Register</button>
                 <p>It’s important you register, as failure to do so will prohibit entrance to the event</p> 
             </div>
             
