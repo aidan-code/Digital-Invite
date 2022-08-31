@@ -25,22 +25,24 @@ function handleChange(e){
         <div className="rsvp-title">
             <p>RSVP</p>
         </div>
-        <div className="rsvp-form">
+        <div className="rsvp-frm">
 {/* form */}
+
+
         <form name="rsvp" 
         method='POST'
         netlify > 
-            <label className = "form-sect"> 
+            <label className = "frm-sect"> 
                 <p>First Name*</p>
                 <input type="Text"  name="firstname"/>
             </label>
 
-            <label className = "form-sect">
+            <label className = "frm-sect">
                 <p>Last Name*</p>
                 <input type="Text"  name="LastName"/>
             </label>
 
-            <label className = "form-sect">
+            <label className = "frm-sect">
                 <p>Phone Number*</p>
                 <input type="text" name="Phonenumber" />
             </label>
@@ -54,12 +56,12 @@ function handleChange(e){
             </div>
 
             <div className={active ? "showfrm" : "hidefrm"}>
-                <label className="form-sect">
+                <label className="frm-sect">
                     <p>Full Name of yout +1*</p>
                     <input type="Text"  name="plusonename"/>
                 </label>
 
-                <label className="form-sect">
+                <label className="frm-sect">
                     <p>Phone Number of your +1*</p>
                     <input type="Text"  name="plusonenum"/>
                 </label>

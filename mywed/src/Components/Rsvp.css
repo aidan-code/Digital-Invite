@@ -18,7 +18,7 @@
     color: #B27409;
 }
 
-.rsvp-form{
+.rsvp-frm{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -26,7 +26,7 @@
     margin: 30px 0px;
     width: 100%;
 }
-.rsvp-form form{
+.rsvp-frm form{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -34,7 +34,7 @@
      
 
 
-.form-sect{
+.frm-sect{
     display: flex;
     align-items: flex-start;
     border: 1px solid #B27409;
