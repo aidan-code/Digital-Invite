@@ -1,7 +1,7 @@
 import React from 'react'
 import './Rsvp.css'
-import { useState } from 'react';
-import { Link } from 'react-router-dom'
+// import { useState } from 'react';
+// import { Link } from 'react-router-dom'
 
 const Rsvp = () => {
 // const [active, setActive] = useState(false);
@@ -33,8 +33,7 @@ const Rsvp = () => {
           <p>
             <button type="submit">Send</button>
           </p>
-        </form>,
-        document.getElementById("root")
+        </form>
 
 //     <div className='rsvp-cont' id='rsv-p'>
 //         <p className="beck"><Link to='/'>Home</Link></p>
