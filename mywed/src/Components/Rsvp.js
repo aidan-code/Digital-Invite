@@ -29,26 +29,23 @@ function handleChange(e){
 {/* form */}
 
 
-        <form name="contact" 
-        method='POST'
-        data-netlify="true"
-        onSubmit="submit"> 
+        <form name="contact" method='POST' data-netlify="true" netlify-honeypot="bot-field" onSubmit="submit"  hidden> 
 
-        <input type="hidden" name="contact" value="contact"/>
-            <label className = "frm-sect"> 
+        <input type="hidden" name="form-name" value="contact"/>
+            <div className = "frm-sect"> 
                 <p>First Name*</p>
                 <input type="Text"  name="firstname"/>
-            </label>
+            </div>
 
-            <label className = "frm-sect">
+            <div className = "frm-sect">
                 <p>Last Name*</p>
                 <input type="Text"  name="LastName"/>
-            </label>
+            </div>
 
-            <label className = "frm-sect">
+            <div className = "frm-sect">
                 <p>Phone Number*</p>
                 <input type="text" name="Phonenumber" />
-            </label>
+            </div>
 
             <div className="show-drop">
                 <p>Are you inviting others?</p>
@@ -59,15 +56,15 @@ function handleChange(e){
             </div>
 
             <div className={active ? "showfrm" : "hidefrm"}>
-                <label className="frm-sect">
+                <div className="frm-sect">
                     <p>Full Name of yout +1*</p>
                     <input type="Text"  name="plusonename"/>
-                </label>
+                </div>
 
-                <label className="frm-sect">
+                <div className="frm-sect">
                     <p>Phone Number of your +1*</p>
                     <input type="Text"  name="plusonenum"/>
-                </label>
+                </div>
             </div>
 
             <div className="subbtn">
