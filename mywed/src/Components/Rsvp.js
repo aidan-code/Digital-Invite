@@ -29,7 +29,7 @@ function handleChange(e){
 {/* form */}
 
 
-        <form name="contact" method='POST' data-netlify="true" netlify-honeypot="bot-field" onSubmit="submit"  hidden> 
+        <form name="contact" method='POST' action='https://formspree.io/f/meqdeerl'> 
 
         <input type="hidden" name="form-name" value="contact"/>
             <div className = "frm-sect"> 
