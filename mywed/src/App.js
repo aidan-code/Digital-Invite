@@ -17,7 +17,6 @@ function App(props) {
         <Route path="/GiftUs" element={<GiftUs/>}/>
         <Route path="/Rsvp" element={<Rsvp/>}/>
 
-
       </Routes>
     </BrowserRouter>
   );
