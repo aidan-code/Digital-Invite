@@ -10,7 +10,7 @@ const Registry = () => {
 
         <img src={present} alt="gift"/>
 
-        <p className='regitext'>Your presence is enough of a present to us! But for those of you who want to Bless Us Further A monetary Gift would be greatly appreciated</p>
+        <p className='regitext'>Your presence a present to us! Those of you who want to bless us further a monetary Gift would be greatly appreciated</p>
 
         <div className='gift'>
             <Link to='/GiftUs'>Gift Us</Link>

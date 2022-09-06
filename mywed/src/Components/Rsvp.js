@@ -65,6 +65,7 @@ function handleChange(e){
                     <p>Phone Number of your +1*</p>
                     <input type="Text"  name="plusonenum"/>
                 </div>
+                <p className="call">If you inviting more than one person, please contact Faith on her Whatsapp Number  +234 (0) 7019261907</p>
             </div>
 
             <div className="subbtn">

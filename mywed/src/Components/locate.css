@@ -48,7 +48,7 @@
         padding:70px 10px;
     }
     .loc-title{
-        font-size: 24px;
+        font-size: 18px;
         display: flex;
         align-items: baseline;
     }
@@ -65,7 +65,7 @@
         font-size: 14px;
     }
     .place img{
-        height: 50px;
+        height: 10px;
 
     }
 }
@@ -96,8 +96,34 @@
 
     }
 }
+@media screen and (min-width:426px) and (max-width:767px){
+    .locate{
+        padding:50px 10px;
+    }
+    .loc-title{
+        font-size: 24px;
+        display: flex;
+        align-items: baseline;
+    }
 
-@media screen and (max-width:768px){
+    .loc-title img{
+        height: 5px;
+    }
+    
+    .loc-descrip{
+        margin:0px 20px ;
+        flex-direction: column;
+    }
+    .place{
+        font-size: 14px;
+    }
+    .place img{
+        height: 50px;
+
+    }
+}
+
+@media screen and (width:768px){
     .locate{
         padding:70px 10px;
     }

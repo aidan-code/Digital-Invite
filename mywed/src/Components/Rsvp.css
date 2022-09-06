@@ -63,6 +63,10 @@ input[type="text"]{
     font-size:1.5rem;
     padding: 5px ;
 }
+.call{
+    font-size: 12px;
+text-align: center;
+}
 
 .cals{
     background-color: #B27409;
@@ -109,7 +113,7 @@ input[type="text"]{
         text-align: center;
         font-size: 36px;
     }
-    .rsvp-form{
+    .rsvp-frm{
         margin: 20px 0px;
         padding:10px 20px;
         align-items: center;
@@ -120,7 +124,7 @@ input[type="text"]{
         display: flex;
         /* flex-direction: column; */
         align-items: center;
-        width: 300px;
+        width:100%;
         margin:5px 30px;
         font-size: 11px;
 
@@ -168,18 +172,18 @@ input[type="text"]{
         text-align: center;
         font-size: 36px;
     }
-    .rsvp-form{
+    .rsvp-frm{
         margin: 20px 0px;
         padding:10px 20px;
         align-items: center;
         justify-content: center;
     }
 
-    .form-sect{
+    .frm-sect{
         display: flex;
         /* flex-direction: column; */
         align-items: center;
-        width: 300px;
+        width: 100%;
         /* margin: 10px 30px; */
 
     }
@@ -216,3 +220,56 @@ input[type="text"]{
     background-color: #B27409;
     padding: 10px;
 }
+
+@media screen and (min-width:426px) and (max-width:767px){
+    .rsvp-cont{
+        padding: 30px 0px;
+    }
+    .rsvp-title{
+        text-align: center;
+        font-size: 36px;
+    }
+    .rsvp-frm{
+        margin: 20px 0px;
+        padding:10px 20px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .frm-sect{
+        display: flex;
+        /* flex-direction: column; */
+        align-items: center;
+        width:100%;
+        /* margin: 10px 30px; */
+
+    }
+    
+    input[type="text"]{
+        outline: none;
+        border: none;
+        font-size: 18px;
+        padding: 5px 0px;
+        width: 150px;
+        color: #B27409;
+        fill: none;
+    }
+    .show-drop{
+        display: flex;
+        align-items: center;
+        font-size:1rem;
+        padding: 5px ;
+    }
+
+    .subbtn{
+        margin: 20px;
+    }
+
+    .reg-btn{
+        padding:10px 100px;
+        font-size: 16px;
+
+    }
+    
+}
+
