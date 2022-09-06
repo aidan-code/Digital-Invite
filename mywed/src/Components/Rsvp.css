@@ -207,6 +207,12 @@ text-align: center;
     .subbtn{
         margin: 20px;
     }
+    .reg-btn{
+        padding:10px 100px;
+        font-size: 16px;
+
+    }
+    
 }
 
 .ric{
