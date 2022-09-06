@@ -45,7 +45,7 @@
 
 @media screen and (max-width:320px) {
     .locate{
-        padding:70px 10px;
+        padding:50px 10px;
     }
     .loc-title{
         font-size: 18px;
@@ -59,7 +59,7 @@
     
     .loc-descrip{
         flex-direction: column;
-        margin: 20px ;
+        margin: 10px ;
     }
     .place{
         font-size: 14px;
@@ -72,7 +72,7 @@
 
 @media screen and (min-width:321px) and (max-width:425px) {
     .locate{
-        padding:70px 10px;
+        padding:50px 10px;
     }
     .loc-title{
         font-size: 24px;
@@ -86,7 +86,7 @@
     
     .loc-descrip{
         flex-direction: column;
-        margin: 20px ;
+        margin: 10px ;
     }
     .place{
         font-size: 14px;
