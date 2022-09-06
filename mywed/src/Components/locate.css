@@ -97,3 +97,29 @@
     }
 }
 
+@media screen and (max-width:768px){
+    .locate{
+        padding:70px 10px;
+    }
+    .loc-title{
+        font-size: 36px;
+        display: flex;
+        align-items: baseline;
+    }
+
+    .loc-title img{
+        height: 5px;
+    }
+    
+    .loc-descrip{
+        margin: 20px ;
+    }
+    .place{
+        font-size: 14px;
+    }
+    .place img{
+        height: 50px;
+
+    }
+}
+

@@ -125,3 +125,36 @@
     }
     
 }
+
+@media screen and (max-width:768px) {
+    .ct-text{
+        padding: 50px 10px;
+        line-height: 2.5rem;
+    }
+    .fam-nm{
+        font-size: 2.5rem;
+    }
+    
+    .col, .sep{
+        font-size: 2rem;
+    }
+
+    .cple{
+        margin: 0px;
+        line-height:2rem;
+        display:flex; 
+        flex-direction:column
+    }
+
+    .dt-sv{
+        font-size: 16px;
+    }
+
+    .flwr{
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -60%);
+        z-index: -1000;
+    }
+}
