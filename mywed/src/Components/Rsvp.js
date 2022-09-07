@@ -56,13 +56,14 @@ function handleChange(e){
             </div>
 
             <div className={active ? "showfrm" : "hidefrm"}>
+                <p> Plus One</p>
                 <div className="frm-sect">
-                    <p>Full Name of your +1*</p>
+                    <p>Full Name    </p>
                     <input type="Text"  name="plusonename"/>
                 </div>
 
                 <div className="frm-sect">
-                    <p>Phone Number of your +1*</p>
+                    <p>Phone Number</p>
                     <input type="Text"  name="plusonenum"/>
                 </div>
                 <p className="call">If you inviting more than one person, please contact Faith on her Whatsapp Number  +234 (0) 7019261907</p>
