@@ -18,14 +18,16 @@
     width: 100vh;
 }
 
-.place{
+.placed{
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+    text-align: center;
 }
 
-.place img{
+.placed img{
     height: 100px;
     
 }
@@ -54,10 +56,11 @@
 
     .thediv{
         height: 100vh;
+        padding: 0px;
     }
     .spacer{
         flex-direction: column-reverse;
-        margin: 10px 5px;
+        margin: 0px 5px;
     }
     .gmap_canvas{
         width: 100%;
@@ -67,20 +70,27 @@
     .how{
         font-size: 24px;
     }
+    .placed img{
+        height: 50px;
+        
+    }
     .dmap{
         height: 50vh;
         width: 100%;
         border: none;
     }
     .rvp{
-        margin: 20px;
+        margin: 0px;
     }
 
     .rvp a{
         font-size: 16px;
     }
+    .how{
+        padding: 0px;
+    }
 }
-@media screen and (max-width:425px){
+@media screen and (min-width:322px) and (max-width:425px){
     .thediv{
         height: 100vh;
         padding: 20px 0px;
@@ -91,19 +101,22 @@
     }
     .gmap_canvas{
         width: 100%;
-        height: 100%;
+        height: 50%;
         
     }
     .how{
         font-size: 30px;
     }
+    .placed img{
+        height: 70px;
+    }
     .dmap{
-        height: 50vh;
+        height:50vh;
         width: 100%;
         border: none;
     }
     .rvp{
-        margin: 20px;
+        margin: 10px;
     }
 
     .rvp a{
@@ -111,10 +124,10 @@
     } 
 }
 
-@media screen and (max-width:1024px) {
+@media screen and (min-width:427px) and (max-width:1024px) {
     .thediv{
         height: 100vh;
-        padding: 20px 0px;
+        padding: 0px 0px;
     }
     .spacer{
         flex-direction: column-reverse;

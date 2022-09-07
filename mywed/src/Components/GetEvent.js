@@ -15,7 +15,7 @@ function GetEvent() {
       </div>
       </div>
 
-      <div className="place">
+      <div className="placed">
           
           <img src={reception} alt="reception"/>
 
