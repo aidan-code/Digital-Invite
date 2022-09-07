@@ -34,17 +34,17 @@ function handleChange(e){
         <input type="hidden" name="form-name" value="contact"/>
             <div className = "frm-sect"> 
                 <p>First Name*</p>
-                <input type="Text"  name="firstname"/>
+                <input type="Text"  name="firstname" required/>
             </div>
 
             <div className = "frm-sect">
                 <p>Last Name*</p>
-                <input type="Text"  name="LastName"/>
+                <input type="Text"  name="LastName"required/>
             </div>
 
             <div className = "frm-sect">
                 <p>Phone Number*</p>
-                <input type="text" name="Phonenumber" />
+                <input type="text" name="Phonenumber" required/>
             </div>
 
             <div className="show-drop">
