@@ -222,6 +222,9 @@ input[type="text"]{
         font-size: 16px;
 
     }
+    .subbtn p{
+        font-size: 12px;
+    }
 
     .beck{
         margin: 20px 0px;
@@ -283,6 +286,10 @@ input[type="text"]{
 
     .subbtn{
         margin: 20px;
+    }
+
+    .subbtn p{
+        font-size: 16px;
     }
 
     .reg-btn{

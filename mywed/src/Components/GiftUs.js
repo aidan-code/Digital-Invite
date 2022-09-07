@@ -11,7 +11,7 @@ function GiftUs() {
     <div className='gft'>
      <div className='bcvk'><Link to='/'>&larr; Back</Link></div>
     <div className="headcard">
-        <div className='wdt'><p>GiftUs</p></div>
+        <div className='wdt'><p>Gift Us</p></div>
     </div>
     <div className="all-acc">
         <div className="accs">

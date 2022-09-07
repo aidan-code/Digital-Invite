@@ -7,6 +7,7 @@ import { Link } from 'react-router-dom'
 function GetEvent() {
   return (
     <div className="thediv">
+      <div className='bcvk'><Link to='/'>&larr; Back</Link></div>
       <h1 className="how">How do i get there</h1>
        <div className="spacer">
       

@@ -29,7 +29,7 @@ const Locate = () => {
             Time : 11am
           </p>
 
-            <Button name = "How do i get there" path = "/GetChurch"/>
+            <Button name = "How do I get there" path = "/GetChurch"/>
 
         </div>
 
@@ -46,7 +46,7 @@ const Locate = () => {
           </p>
 
 
-          <Button name = "How do i get there"  path = "/GetEvent"/>
+          <Button name = "How do I get there"  path = "/GetEvent"/>
 
         </div>
 
