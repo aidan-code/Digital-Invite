@@ -33,18 +33,18 @@ function handleChange(e){
 
         <input type="hidden" name="form-name" value="contact"/>
             <div className = "frm-sect"> 
-                <p>First Name*</p>
-                <input type="Text"  name="firstname" required/>
+                {/* <p>First Name*</p> */}
+                <input type="Text"  name="firstname" placeholder="First Name*"required/>
             </div>
 
             <div className = "frm-sect">
-                <p>Last Name*</p>
-                <input type="Text"  name="LastName"required/>
+                {/* <p>Last Name*</p> */}
+                <input type="Text"  name="LastName"  placeholder="Last Name*" required/>
             </div>
 
             <div className = "frm-sect">
-                <p>Phone Number*</p>
-                <input type="text" name="Phonenumber" required/>
+                {/* <p>Phone Number*</p> */}
+                <input type="text" name="Phonenumber" placeholder="Phone Number " required/>
             </div>
 
             <div className="show-drop">
@@ -56,15 +56,14 @@ function handleChange(e){
             </div>
 
             <div className={active ? "showfrm" : "hidefrm"}>
-                <p> Plus One</p>
                 <div className="frm-sect">
-                    <p>Full Name    </p>
-                    <input type="Text"  name="plusonename"/>
+                    <p></p>
+                    <input type="Text"  name="plusonename" placeholder='Full Name of +1'/>
                 </div>
 
                 <div className="frm-sect">
-                    <p>Phone Number</p>
-                    <input type="Text"  name="plusonenum"/>
+                    <p></p>
+                    <input type="Text"  name="plusonenum" placeholder='Phone Number of +1'/>
                 </div>
                 <p className="call">If you inviting more than one person, please contact Faith on her Whatsapp Number  +234 (0) 7019261907</p>
             </div>

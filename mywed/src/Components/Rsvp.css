@@ -27,9 +27,9 @@
     width: 100%;
 }
 .rsvp-frm form{
-    display: flex;
+    /* display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: flex-start; */
 }
      
 
@@ -56,6 +56,11 @@ input[type="text"]{
     color: #B27409;
     fill: none;
 }
+::placeholder{
+    color: black;
+    font-family: 'Aref Ruqaa', serif;
+
+}
 
 .show-drop{
     display: flex;
@@ -65,7 +70,7 @@ input[type="text"]{
 }
 .call{
     font-size: 12px;
-text-align: center;
+    text-align: center;
 }
 
 .cals{
