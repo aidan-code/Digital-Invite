@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom'
 
 function GiftUs() {
   return (
-    <>
+    <div className='gft'>
      <div className='bcvk'><Link to='/'>&larr; Back</Link></div>
     <div className="headcard">
         <div className='wdt'><p>GiftUs</p></div>
@@ -54,7 +54,7 @@ function GiftUs() {
     <div className="Thanks">
         <p><Link to="/">Thank You</Link></p>
         </div>
-    </>
+    </div>
     
   )
 }

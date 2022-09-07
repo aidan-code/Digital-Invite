@@ -14,8 +14,9 @@
 
 .all-acc{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     padding: 30px 150px; 
+    flex-wrap: wrap;
 
 }
 .bcvk {
@@ -59,22 +60,90 @@
 @media screen and (max-width:320px) {
     .headcard{
         font-size: 36px;
+        margin: 0px;
     }
 
     .bcvk{
-        width: 100px;
+        /* width: 100px; */
+        margin:0px;
+        padding: 10px 20px;
     }
 
     .all-acc{
         flex-direction: column;
-        padding: 50px;
+        padding: 10px;
     }
     .accs img{
         height: 200px;
     }
+    .accs{
+       font-size: 16px;
+    }
 
     .Thanks {
-        font-size: 24px;
+        font-size: 16px;
+        margin: 20px 0px;
+    }
+}
+
+@media screen and (min-width:321px) and (max-width:425px){
+    .headcard{
+        font-size: 36px;
+        margin: 0px;
+    }
+
+    .bcvk{
+        /* width: 100px; */
+        margin:0px;
+        padding: 10px 20px;
+    }
+
+    .all-acc{
+        flex-direction: column;
+        padding: 10px;
+    }
+    .accs img{
+        height: 200px;
+    }
+    .accs{
+       font-size: 16px;
+    }
+
+    .Thanks {
+        font-size: 16px;
+        margin: 20px 0px;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .headcard{
+        font-size: 36px;
+        margin: 0px;
+    }
+
+    .bcvk{
+        /* width: 100px; */
+        margin:0px;
+        padding: 10px 20px;
+    }
+
+    .all-acc{
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 10px;
+    }
+    .accs img{
+        height: 200px;
+    }
+    .accs{
+       font-size: 16px;
+    }
+    .details{
+    }
+
+    .Thanks {
+        font-size: 16px;
+        margin: 20px 0px;
     }
 }
 
