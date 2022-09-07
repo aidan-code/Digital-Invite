@@ -57,7 +57,7 @@ function handleChange(e){
 
             <div className={active ? "showfrm" : "hidefrm"}>
                 <div className="frm-sect">
-                    <p>Full Name of yout +1*</p>
+                    <p>Full Name of your +1*</p>
                     <input type="Text"  name="plusonename"/>
                 </div>
 
