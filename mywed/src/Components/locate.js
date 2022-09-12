@@ -26,7 +26,7 @@ const Locate = () => {
           <span>RCCG Fountain of Life</span><br/>
             1 Isreal Adebajo Cl, Ogba 101233,<br/> 
             Ikeja, Lagos Nigeria<br/>
-            Time : 11am
+            Time : 10am
           </p>
 
             <Button name = "How do I get there" path = "/GetChurch"/>

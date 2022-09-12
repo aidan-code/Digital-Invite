@@ -8,7 +8,7 @@ function GetEvent() {
   return (
     <div className="thediv">
       <div className='bcvk'><Link to='/'>&larr; Back</Link></div>
-      <h1 className="how">How do i get there</h1>
+      <h1 className="how">How do I get there</h1>
        <div className="spacer">
       
       <div class="mapouter">
@@ -24,7 +24,7 @@ function GetEvent() {
           <span>RCCG Fountain of Life</span><br/>
             1 Isreal Adebajo Cl, Ogba 101233,<br/> 
             Ikeja, Lagos Nigeria<br/>
-            Time : 11am
+            Time : 10am
           </p>
 
 
