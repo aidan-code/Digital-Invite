@@ -5,6 +5,7 @@ import GetEvent from './Components/GetEvent';
 import  GiftUs from './Components/GiftUs';
 import Rsvp from './Components/Rsvp';
 import GetChurch from './Components/GetChurch'
+import Invite from './Components/Invite';
 
 
 function App(props) {
@@ -16,6 +17,7 @@ function App(props) {
         <Route path="/GetChurch" element={<GetChurch/>}/>
         <Route path="/GiftUs" element={<GiftUs/>}/>
         <Route path="/Rsvp" element={<Rsvp/>}/>
+        <Route path="/invite" element={<Invite/>}/>
 
       </Routes>
     </BrowserRouter>

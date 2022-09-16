@@ -13,7 +13,6 @@ const Locate = () => {
     <div className="locate" id='Locate'>
         <div className="loc-title">
           <p>LOCATION...</p>
-          <img src={car} alt=""/>
         </div>
 
     <div className="loc-descrip">

@@ -72,6 +72,7 @@ function handleChange(e){
                 <button type="submit" className='reg-btn' >Register</button>
                 <p>It’s important you register, as failure to do so will prohibit entrance to the event</p> 
             </div>
+            <Link to='/Invite'>invite</Link>
             
         </form>
         </div>
