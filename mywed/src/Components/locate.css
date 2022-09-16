@@ -41,7 +41,7 @@
 
 @media screen and (width:320px) {
     .locate{
-        padding:50px 10px;
+        padding:100px 10px;
     }
     .loc-title{
         font-size: 18px;
@@ -55,14 +55,19 @@
     
     .loc-descrip{
         flex-direction: column;
+        justify-content: center;
         margin: 10px ;
     }
     .place{
         font-size: 14px;
+        margin: 30px 0px;
     }
     .place img{
         height: 50px;
 
+    }
+    .place p{
+        line-height: 1.5rem;
     }
 }
 
