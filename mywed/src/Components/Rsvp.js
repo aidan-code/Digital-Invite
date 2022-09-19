@@ -75,7 +75,7 @@ function handleChange(e){
             
         </form>
         </div>
-       
+       <Link to='/Invite'>Invite</Link>
     </div>
   )
 }
