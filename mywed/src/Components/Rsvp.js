@@ -2,9 +2,11 @@ import React from 'react'
 import './Rsvp.css'
 import { useState } from 'react';
 import { Link } from 'react-router-dom'
+import image from '../Assets/FO 1.svg'
 
 const Rsvp = () => {
 const [active, setActive] = useState(false);
+const [closed, setClosed] = useState(true);
 
 
 function handleChange(e){
@@ -17,11 +19,13 @@ function handleChange(e){
     }else if (vale ==="Choose"){
         setActive(false);
     }
+
 }
   return (
-
-    <div className='rsvp-cont' id='rsv-p'>
-        <p className="beck"><Link to='/'>Home</Link></p>
+    
+     <div className='rsvp-cont' id='rsv-p'>
+        {closed ?
+        <div> <p className="beck"><Link to='/'>Home</Link></p>
         <div className="rsvp-title">
             <p>RSVP</p>
         </div>
@@ -29,7 +33,7 @@ function handleChange(e){
 {/* form */}
 
 
-        <form name="contact" method='POST' action='https://formspree.io/f/meqdeerl'> 
+        <form name="contact" method='POST' > 
 
         <input type="hidden" name="form-name" value="contact"/>
             <div className = "frm-sect"> 
@@ -69,14 +73,26 @@ function handleChange(e){
             </div>
 
             <div className="subbtn">
-                <button type="submit" className='reg-btn' >Register</button>
+                <button type="submit" className='reg-btn' onClick={()=>setClosed(!closed)} >Register </button>
                 <p>It’s important you register, as failure to do so will prohibit entrance to the event</p> 
             </div>
             
         </form>
         </div>
-       
+        </div>
+        :
+        <div className='closee'>
+            <div className='cl-img'>
+                <img src={image} />
+            </div>
+            <h1 className='rssve'>Rsvp Closed</h1>
+            <p>Registrations for this event has ended</p>
+            <p></p>
+        </div>
+        
+        }
     </div>
+
   )
 }
 
