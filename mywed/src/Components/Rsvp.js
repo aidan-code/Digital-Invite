@@ -33,7 +33,7 @@ function handleChange(e){
 {/* form */}
 
 
-        <form name="contact" method='POST' > 
+        <form name="contact" > 
 
         <input type="hidden" name="form-name" value="contact"/>
             <div className = "frm-sect"> 
